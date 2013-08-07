@@ -8,7 +8,7 @@
   <remote name="mozilla" fetch="git://github.com/mozilla/"/>
   <remote name="gaiatablet" fetch="git://github.com/gaia-local/"/>
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases"/>
-  <remote name="apc-io" fetch="git@github.com:apc-io/" />
+  <remote name="apc-io" fetch="ssh://git@github.com/apc-io/" />
   <default revision="refs/tags/android-4.0.4_r2.1" remote="caf" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
