@@ -97,7 +97,9 @@
   <project path="device/wmt/wmid" name="apc_8950_device_wmt_wmid" remote="apc-io" revision="B2G"/>
   <project path="external/wpa_supplicant_8" name="apc_8950_external_wpa_supplicant_8" remote="apc-io" revision="apc8950" />
   <project path="hardware/libhardware" name="apc_8950_hardware_libhardware" remote="apc-io" revision="apc8950"/>
-  <project path="hardware/wmt" name="apc_8950_hardware_wmt" remote="apc-io" revision="apc8950" />
+  <project path="hardware/wmt/libstagefrighthw" name="apc_8950_hardware_wmt_libstagefrighthw" remote="apc-io" revision="apc8950" />
+  <project path="hardware/wmt/vdec" name="apc_8950_hardware_wmt_vdec" remote="apc-io" revision="apc8950" />
+  <project path="hardware/wmt/wmt-enc" name="apc_8950_hardware_wmt_wmt-enc" remote="apc-io" revision="apc8950" />
   <project path="vendor/mali/wmid" name="apc_8950_vendor_mali_wmid" remote="apc-io" revision="apc8950" />
   <project path="vendor/wmt/wmid" name="apc_8950_vendor_wmt_wmid" remote="apc-io" revision="apc8950" />
 
