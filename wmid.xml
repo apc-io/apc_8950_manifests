@@ -81,7 +81,7 @@
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="a95d8db002770469d72dfaf59ff37ac96db29a87"/>
   <project path="frameworks/support" name="platform/frameworks/support" revision="bfc8e01b7b0d5ea70ce89d0409b72b7f7d540f43"/>
 <!--  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="a9b677fce432b29ab8f61e13796f34880dc0fe0f"/> -->
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="153d0f1a27e0a157cabb6ca9d0d88248630f5695"/>
+<!--  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="153d0f1a27e0a157cabb6ca9d0d88248630f5695"/> -->
   <project path="hardware/ril" name="platform/hardware/ril" revision="300105d1487f5238940c18792b879793826b61f4"/>
   <project path="libcore" name="platform/libcore" revision="fc294a48d80d9e2b2ac126edf93ad316f5f6cf72"/>
   <project path="ndk" name="platform/ndk" revision="2d77f5a05f60029c981f299b222cfe28db18ccf7"/>
@@ -97,6 +97,7 @@
   <project path="device/wmt/wmid" name="apc_8950_device_wmt_wmid" remote="apc-io" revision="B2G"/>
   <project path="external/wpa_supplicant_8" name="apc_8950_external_wpa_supplicant_8" remote="apc-io" revision="apc8950" />
   <project path="hardware/libhardware" name="apc_8950_hardware_libhardware" remote="apc-io" revision="apc8950"/>
+  <project path="hardware/libhardware_legacy" name="apc_8950_hardware_libhardware_legacy" remote="apc-io" revision="apc8950"/>
   <project path="hardware/wmt/libstagefrighthw" name="apc_8950_hardware_wmt_libstagefrighthw" remote="apc-io" revision="apc8950" />
   <project path="hardware/wmt/vdec" name="apc_8950_hardware_wmt_vdec" remote="apc-io" revision="apc8950" />
   <project path="hardware/wmt/wmt-enc" name="apc_8950_hardware_wmt_wmt-enc" remote="apc-io" revision="apc8950" />
