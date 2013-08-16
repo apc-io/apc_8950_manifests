@@ -33,7 +33,7 @@
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="1143b9918eab068401b604eb11c3f651f4e38b25"/>
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="7322661808c2006b7848e79e6bb72b37fbcf6710"/>
   <project path="external/bsdiff" name="platform/external/bsdiff" revision="81872540236d9bb15cccf963d05b9de48baa5375"/>
-<!--  <project path="external/busybox" name="platform/external/busybox" remote="linaro" revision="2e461c8029a50d986dfe4ab07ae5a1834b5c40f0"/> -->
+  <project path="external/busybox" name="platform/external/busybox" remote="linaro" revision="2e461c8029a50d986dfe4ab07ae5a1834b5c40f0"/>
   <project path="external/bzip2" name="platform/external/bzip2" revision="048dacdca43eed1534689ececcf2781c63e1e4ba"/>
   <project path="external/dbus" name="platform/external/dbus" revision="537eaff5de9aace3348436166d4cde7adc1e488e"/>
   <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="ddaa48f57b54b2862b3e6dcf18a44c9647f3baaa"/>
