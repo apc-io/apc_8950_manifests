@@ -12,11 +12,11 @@
   <default revision="refs/tags/android-4.0.4_r2.1" remote="caf" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
-  <project path="build" name="platform_build" remote="b2g" revision="7cb46499e0b91ca20f6aed58d6067d7c451875b9" upstream="v1-train">
+  <project path="build" name="apc_b2g_build" remote="apc-io" revision="refs/heads/apc8950">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="ca1f327d5acc198bb4be62fa51db2c039032c9ce" upstream="v1-train"/>
-  <project path="gaia" name="gaia.git" remote="gaiatablet" revision="master"/>
+  <project path="gaia" name="apc_b2g_gaia" remote="apc-io" revision="apc8950"/>
   <project path="gecko" name="apc_b2g_gecko" remote="apc-io" revision="apc8950"/>
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="ded7bc971be7f0543db3e7dcf8e2ff134739aef2" upstream="v1-train"/>
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="f634b3d50effdd42828cc757c01fdbf74e562a36" upstream="v1-train"/>
@@ -108,6 +108,9 @@
   <project path="external/alsa-utils" name="apc_8950_external_alsa_utils" remote="apc-io" revision="apc8950" />
   <project path="hardware/alsa_sound" name="apc_8950_hardware_alsa_sound" remote="apc-io" revision="apc8950"/>
 
+  <!-- custom webapps -->
+  <project path="gaia/apps/prospector" name="apc_b2g_webapps_prospector" remote="apc-io" revision="refs/heads/apc8950-dev" />
+
   <project path="hardware/broadcom/wlan" name="external/gigabyte/platform/hardware/broadcom/wlan" remote="caf" upstream="release" revision="9002fdbdf86753148dafcf910ad47fa0a1b85471" />
   <project path="hardware/msm7k" name="quic/la/platform/hardware/msm7k" remote="caf" revision="aosp-new/ics-mr0"/>
   <project path="hardware/qcom/gps" name="quic/la/platform/hardware/qcom/gps" remote="caf" revision="aosp-new/ics-mr0" />
@@ -115,4 +118,5 @@
   <project path="hardware/ti/omap3" name="quic/la/platform/hardware/ti/omap3" remote="caf" revision="aosp-new/ics-mr0" />
   <project path="hardware/ti/omap4xxx" name="quic/la/platform/hardware/ti/omap4xxx" remote="caf" revision="aosp-new/ics-mr0" />
 
+  <project path="librecovery" name="librecovery" remote="b2g" revision="refs/heads/master" />
 </manifest>
