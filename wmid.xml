@@ -13,8 +13,7 @@
   <default revision="refs/tags/android-4.0.4_r2.1" remote="caf" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
-  <project path="build" name="apc_b2g_build" remote="apc-io" revision="refs/heads/apc8950">
-<!--  <project path="build" name="platform_build" remote="b2g" revision="master"> -->
+  <project path="build" name="platform_build" remote="b2g" revision="master">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
@@ -32,12 +31,10 @@
   <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
   <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="master" />
-<!--   <project path="external/apache-http" name="platform/external/apache-http" revision="6c9d8c58d3ed710f87c26820d903bb8aad81754f"/> -->
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-<!--   <project path="external/busybox" name="platform/external/busybox" remote="linaro" revision="2e461c8029a50d986dfe4ab07ae5a1834b5c40f0"/> -->
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -54,7 +51,6 @@
   <!-- icu4c is missing the default tag in caf, that's the *only* reason for the hardcode -->
   <project path="external/icu4c" name="platform/external/icu4c" revision="0fa67b93b831c6636ca18b152a1b1b14cc99b034"/>
   <project path="external/iptables" name="platform/external/iptables" />
-  <!-- <project path="external/jhead" name="platform/external/jhead" /> -->
   <project path="external/jpeg" name="platform/external/jpeg" />
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
@@ -76,19 +72,18 @@
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
-<!--  <project path="external/tinyalsa" name="platform/external/tinyalsa" /> -->
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="a01d37870bbf9892d43e792e5de0683ca41c5497"/>
-<!--  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" /> -->
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/support" name="platform/frameworks/support" />
-<!--   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" /> -->
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
@@ -102,9 +97,6 @@
 
   <!-- VIA APC 8950 specific things -->
   <project path="device/wmt/wmid" name="apc_8950_device_wmt_wmid" remote="apc-io" revision="B2G"/>
-  <project path="external/wpa_supplicant_8" name="apc_8950_external_wpa_supplicant_8" remote="apc-io" revision="apc8950" />
-  <project path="hardware/libhardware" name="apc_8950_hardware_libhardware" remote="apc-io" revision="apc8950"/>
-  <project path="hardware/libhardware_legacy" name="apc_8950_hardware_libhardware_legacy" remote="apc-io" revision="apc8950"/>
   <project path="hardware/wmt/libstagefrighthw" name="apc_8950_hardware_wmt_libstagefrighthw" remote="apc-io" revision="apc8950" />
   <project path="hardware/wmt/vdec" name="apc_8950_hardware_wmt_vdec" remote="apc-io" revision="apc8950" />
   <project path="hardware/wmt/wmt-enc" name="apc_8950_hardware_wmt_wmt-enc" remote="apc-io" revision="apc8950" />
@@ -118,12 +110,6 @@
   <!-- custom webapps -->
   <project path="gaia/apps/prospector" name="apc_b2g_webapps_prospector" remote="apc-io" revision="refs/heads/apc8950-dev" />
 
-<!--   <project path="hardware/broadcom/wlan" name="external/gigabyte/platform/hardware/broadcom/wlan" remote="caf" upstream="release" revision="9002fdbdf86753148dafcf910ad47fa0a1b85471" /> -->
-<!--   <project path="hardware/msm7k" name="quic/la/platform/hardware/msm7k" remote="caf" revision="aosp-new/ics-mr0"/>
-  <project path="hardware/qcom/gps" name="quic/la/platform/hardware/qcom/gps" remote="caf" revision="aosp-new/ics-mr0" />
-  <project path="hardware/qcom/media" name="quic/la/platform/hardware/qcom/media" remote="caf" revision="aosp-new/ics-mr0" />
-  <project path="hardware/ti/omap3" name="quic/la/platform/hardware/ti/omap3" remote="caf" revision="aosp-new/ics-mr0" />
-  <project path="hardware/ti/omap4xxx" name="quic/la/platform/hardware/ti/omap4xxx" remote="caf" revision="aosp-new/ics-mr0" /> -->
-
   <project path="librecovery" name="librecovery" remote="b2g" revision="refs/heads/master" />
+  <project path="patches" name="apc_b2g_patches" remote="apc-io" revision="apc8950" />
 </manifest>
