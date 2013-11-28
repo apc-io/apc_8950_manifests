@@ -10,6 +10,7 @@
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases"/>
   <remote name="apc-io" fetch="ssh://git@github.com/apc-io/" />
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
+  <remote name="Codexa" fetch="git://github.com/Codexa/" />
   <default revision="refs/tags/android-4.0.4_r2.1" remote="caf" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
@@ -108,7 +109,7 @@
   <project path="hardware/alsa_sound" name="apc_8950_hardware_alsa_sound" remote="apc-io" revision="apc8950"/>
 
   <!-- custom webapps -->
-  <project path="gaia/apps/prospector" name="apc_b2g_webapps_prospector" remote="apc-io" revision="refs/heads/apc8950-dev" />
+  <project path="gaia/outoftree_apps/prospector" name="Prospector" remote="Codexa" revision="master" />
 
   <project path="librecovery" name="librecovery" remote="b2g" revision="refs/heads/master" />
   <project path="patches" name="apc_b2g_patches" remote="apc-io" revision="apc8950" />
