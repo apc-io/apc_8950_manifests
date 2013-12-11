@@ -108,6 +108,10 @@
   <project path="external/alsa-utils" name="apc_8950_external_alsa_utils" remote="apc-io" revision="apc8950" />
   <project path="hardware/alsa_sound" name="apc_8950_hardware_alsa_sound" remote="apc-io" revision="apc8950"/>
 
+  <!-- OTA support -->
+  <project path="external/genext2fs" name="platform/external/genext2fs" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
+
   <!-- custom webapps -->
   <project path="gaia/outoftree_apps/prospector" name="Prospector" remote="Codexa" revision="master" />
 
