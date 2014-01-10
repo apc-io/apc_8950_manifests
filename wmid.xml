@@ -18,8 +18,8 @@
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
-  <project path="gaia" name="apc_b2g_gaia" remote="apc-io" revision="apc8950-master"/>
-  <project path="gecko" name="apc_b2g_gecko" remote="apc-io" revision="apc8950-master"/>
+  <project path="gaia" name="apc_b2g_gaia" remote="apc-io" revision="359_quitFTUSettings"/>
+  <project path="gecko" name="apc_b2g_gecko" remote="apc-io" revision="1095_CantTurnOnBluetoothBug"/>
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
@@ -97,7 +97,7 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- VIA APC 8950 specific things -->
-  <project path="device/wmt/wmid" name="apc_8950_device_wmt_wmid" remote="apc-io" revision="B2G"/>
+  <project path="device/wmt/wmid" name="apc_8950_device_wmt_wmid" remote="apc-io" revision="1470_release_20140109"/>
   <project path="hardware/wmt/libstagefrighthw" name="apc_8950_hardware_wmt_libstagefrighthw" remote="apc-io" revision="apc8950" />
   <project path="hardware/wmt/vdec" name="apc_8950_hardware_wmt_vdec" remote="apc-io" revision="apc8950" />
   <project path="hardware/wmt/wmt-enc" name="apc_8950_hardware_wmt_wmt-enc" remote="apc-io" revision="apc8950" />
@@ -116,5 +116,5 @@
   <project path="gaia/outoftree_apps/prospector" name="Prospector" remote="Codexa" revision="master" />
 
   <project path="librecovery" name="librecovery" remote="b2g" revision="refs/heads/master" />
-  <project path="patches" name="apc_b2g_patches" remote="apc-io" revision="apc8950" />
+  <project path="patches" name="apc_b2g_patches" remote="apc-io" revision="1470_release_20140109" />
 </manifest>
