@@ -18,8 +18,8 @@
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
-  <project path="gaia" name="apc_b2g_gaia" remote="apc-io" revision="apc8950-master"/>
-  <project path="gecko" name="apc_b2g_gecko" remote="apc-io" revision="apc8950-master"/>
+  <project path="gaia" name="apc_b2g_gaia" remote="apc-io" revision="apc8950-ethernet_staticIP"/>
+  <project path="gecko" name="apc_b2g_gecko" remote="apc-io" revision="apc8880-dev"/>
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
